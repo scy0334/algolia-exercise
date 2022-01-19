@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685C86A52796EB7C00B939FF /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C86A42796EB7C00B939FF /* SearchResultsController.swift */; };
+		685C86A72796F7EB00B939FF /* SearchedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C86A62796F7EB00B939FF /* SearchedUserTableViewCell.swift */; };
+		685C86A92796FDA000B939FF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C86A82796FDA000B939FF /* UIView+Extensions.swift */; };
+		685C86AE2797DFD600B939FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685C86AD2797DFD600B939FF /* HomeViewController.swift */; };
 		68EFD1732796875800652029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFD1722796875800652029 /* AppDelegate.swift */; };
 		68EFD1752796875800652029 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFD1742796875800652029 /* SceneDelegate.swift */; };
 		68EFD1772796875800652029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFD1762796875800652029 /* ViewController.swift */; };
-		68EFD17A2796875800652029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EFD1782796875800652029 /* Main.storyboard */; };
 		68EFD17C2796875900652029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EFD17B2796875900652029 /* Assets.xcassets */; };
 		68EFD17F2796875900652029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EFD17D2796875900652029 /* LaunchScreen.storyboard */; };
+		B1171E0DD38CA2E765144A48 /* Pods_Algolia_Exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDEBA9BD0B2ECC16CA2969C /* Pods_Algolia_Exercise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25C299D9CE29964D7D872DD0 /* Pods-Algolia-Exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolia-Exercise.release.xcconfig"; path = "Target Support Files/Pods-Algolia-Exercise/Pods-Algolia-Exercise.release.xcconfig"; sourceTree = "<group>"; };
+		685C86A42796EB7C00B939FF /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		685C86A62796F7EB00B939FF /* SearchedUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedUserTableViewCell.swift; sourceTree = "<group>"; };
+		685C86A82796FDA000B939FF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		685C86AC2797AA9D00B939FF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		685C86AD2797DFD600B939FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		68EFD16F2796875800652029 /* Algolia-Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algolia-Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EFD1722796875800652029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68EFD1742796875800652029 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68EFD1762796875800652029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		68EFD1792796875800652029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68EFD17B2796875900652029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68EFD17E2796875900652029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68EFD1802796875900652029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716861914F27B7801D32B726 /* Pods-Algolia-Exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algolia-Exercise.debug.xcconfig"; path = "Target Support Files/Pods-Algolia-Exercise/Pods-Algolia-Exercise.debug.xcconfig"; sourceTree = "<group>"; };
+		CDDEBA9BD0B2ECC16CA2969C /* Pods_Algolia_Exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algolia_Exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1171E0DD38CA2E765144A48 /* Pods_Algolia_Exercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 			children = (
 				68EFD1712796875800652029 /* Algolia-Exercise */,
 				68EFD1702796875800652029 /* Products */,
+				A885A0DB99BE0E3CE321921F /* Pods */,
+				8A1E3483825D7E38887133D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +73,33 @@
 				68EFD1722796875800652029 /* AppDelegate.swift */,
 				68EFD1742796875800652029 /* SceneDelegate.swift */,
 				68EFD1762796875800652029 /* ViewController.swift */,
-				68EFD1782796875800652029 /* Main.storyboard */,
 				68EFD17B2796875900652029 /* Assets.xcassets */,
 				68EFD17D2796875900652029 /* LaunchScreen.storyboard */,
 				68EFD1802796875900652029 /* Info.plist */,
+				685C86A42796EB7C00B939FF /* SearchResultsController.swift */,
+				685C86A62796F7EB00B939FF /* SearchedUserTableViewCell.swift */,
+				685C86A82796FDA000B939FF /* UIView+Extensions.swift */,
+				685C86AC2797AA9D00B939FF /* Config.xcconfig */,
+				685C86AD2797DFD600B939FF /* HomeViewController.swift */,
 			);
 			path = "Algolia-Exercise";
+			sourceTree = "<group>";
+		};
+		8A1E3483825D7E38887133D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDEBA9BD0B2ECC16CA2969C /* Pods_Algolia_Exercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A885A0DB99BE0E3CE321921F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				716861914F27B7801D32B726 /* Pods-Algolia-Exercise.debug.xcconfig */,
+				25C299D9CE29964D7D872DD0 /* Pods-Algolia-Exercise.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68EFD1832796875900652029 /* Build configuration list for PBXNativeTarget "Algolia-Exercise" */;
 			buildPhases = (
+				438445074DAE79233C39C373 /* [CP] Check Pods Manifest.lock */,
 				68EFD16B2796875800652029 /* Sources */,
 				68EFD16C2796875800652029 /* Frameworks */,
 				68EFD16D2796875800652029 /* Resources */,
+				9C5F83372A82B00CB9B63C21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +164,64 @@
 			files = (
 				68EFD17F2796875900652029 /* LaunchScreen.storyboard in Resources */,
 				68EFD17C2796875900652029 /* Assets.xcassets in Resources */,
-				68EFD17A2796875800652029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438445074DAE79233C39C373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Algolia-Exercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5F83372A82B00CB9B63C21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolia-Exercise/Pods-Algolia-Exercise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Algolia-Exercise/Pods-Algolia-Exercise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Algolia-Exercise/Pods-Algolia-Exercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68EFD16B2796875800652029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685C86A92796FDA000B939FF /* UIView+Extensions.swift in Sources */,
+				685C86A72796F7EB00B939FF /* SearchedUserTableViewCell.swift in Sources */,
+				685C86A52796EB7C00B939FF /* SearchResultsController.swift in Sources */,
 				68EFD1772796875800652029 /* ViewController.swift in Sources */,
 				68EFD1732796875800652029 /* AppDelegate.swift in Sources */,
+				685C86AE2797DFD600B939FF /* HomeViewController.swift in Sources */,
 				68EFD1752796875800652029 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +229,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		68EFD1782796875800652029 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68EFD1792796875800652029 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68EFD17D2796875900652029 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -168,6 +242,7 @@
 /* Begin XCBuildConfiguration section */
 		68EFD1812796875900652029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685C86AC2797AA9D00B939FF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -217,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -229,6 +304,7 @@
 		};
 		68EFD1822796875900652029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685C86AC2797AA9D00B939FF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -272,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +360,17 @@
 		};
 		68EFD1842796875900652029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716861914F27B7801D32B726 /* Pods-Algolia-Exercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4NUGV6Z827;
+				DEVELOPMENT_TEAM = 4KGRAR6BRX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Algolia-Exercise/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,17 +388,17 @@
 		};
 		68EFD1852796875900652029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C299D9CE29964D7D872DD0 /* Pods-Algolia-Exercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4NUGV6Z827;
+				DEVELOPMENT_TEAM = 4KGRAR6BRX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Algolia-Exercise/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
